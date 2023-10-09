@@ -3,7 +3,9 @@ import re
 from typing import Optional
 
 
+
 # Possible values for env variables
+# constants.py
 
 ENV_VARS_TRUE_VALUES = {"1", "ON", "YES", "TRUE"}
 ENV_VARS_TRUE_AND_AUTO_VALUES = ENV_VARS_TRUE_VALUES.union({"AUTO"})
