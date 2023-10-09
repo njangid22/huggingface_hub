@@ -7,6 +7,7 @@ import pytest
 from huggingface_hub import HfFolder, delete_repo
 
 
+
 @pytest.fixture(scope="session")
 def token() -> str:
     # Not critical, only usable on the sandboxed CI instance.
