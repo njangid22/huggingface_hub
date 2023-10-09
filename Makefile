@@ -45,6 +45,7 @@ CONTRIB_SETUP_JOBS := $(addprefix contrib_setup_,${CONTRIB_LIBS})
 CONTRIB_TEST_JOBS := $(addprefix contrib_test_,${CONTRIB_LIBS})
 
 contrib_clear_%:
+
 	rm -rf contrib/$*/.venv
 
 contrib_setup_%:
